@@ -66,5 +66,3 @@ class Teacher {
 //   String department ;
 //   Teacher({required this.name, required this.subject, required this.department});
 // }
-
-hello
