@@ -26,12 +26,6 @@ class Student extends Human{
   String section;
 
   Student(super.studentName, super.hand, super.legs, super.eyes, this.className, this.section );
-
-  @override
-  void moving() {
-    // TODO: implement moving
-    super.moving();
-  }
 }
 
 
