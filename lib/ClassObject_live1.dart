@@ -24,7 +24,7 @@ void main (){
 
 class Student {
   String name = '';
-  int age = 0;                  // String name <= properties
+  int age = 0;                  // String name <= properties / variable / field
   String address = '';
   static String institution = 'Dhaka University';  //non changeable propertie     er mane hocce object etake change korte parbe na but class change korte parbe
   //static final String institution = 'Dhaka University';  //non changeable propertie but ekhane object thekeo change korte parbe na
