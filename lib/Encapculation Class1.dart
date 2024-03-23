@@ -6,21 +6,28 @@ class Person {
 
   Person(this._firstName, this._lastName, this._gender, this.age);
 
+  //Getter method
   getFullName(){
     String fullName = _firstName + ' ' + _lastName;
     return(fullName);
   }
 
+  // Setter method
   changeGendar (String newGender){
     if (newGender == 'Male' || newGender == 'Female'){
       _gender = newGender;
-      print(_gender);
     }
   }
 
+  //getter method
+  getGender(){
+    return _gender;
+  }
+
+  //getter method
   getBirthYear (){
     int birthYear = 2024 - age;
-    print(birthYear);
+    return(birthYear);
   }
 
 }

@@ -4,6 +4,10 @@ void main (){
   Person defaultPerson = Person('Rafiqul', 'Islam', 'Male', 20);
 
   print(defaultPerson.getFullName());
-  defaultPerson.changeGendar('Male');
-  defaultPerson.getBirthYear();
+  print(defaultPerson.getGender());
+
+  defaultPerson.changeGendar('Female');
+  print(defaultPerson.getGender());
+
+  print(defaultPerson.getBirthYear());
 }
