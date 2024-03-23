@@ -28,6 +28,7 @@ class Student {
   String address = '';
   static String institution = 'Dhaka University';  //non changeable propertie     er mane hocce object etake change korte parbe na but class change korte parbe
   //static final String institution = 'Dhaka University';  //non changeable propertie but ekhane object thekeo change korte parbe na
+
   void helloNadim (){
     print('Hello Nadim');       // helloNadim () <= Methode
   }
@@ -45,12 +46,15 @@ class Teacher {
 
 // void main(){
 //   List <Teacher> teachers = [];
+
 //   Teacher teacher1 = Teacher(name: 'Rafat',subject: 'Flutter', department: 'CSE');
 //   Teacher teacher2 = Teacher(name: 'Rabbil', subject: 'Laravel', department: 'CSE');
 //   Teacher teacher3 = Teacher(name: 'Aunjan', subject: 'Botani', department: 'Biology');
+
 //   teachers.add(teacher1);
 //   teachers.add(teacher2);
 //   teachers.add(teacher3);
+
 //   print('${teacher1.subject} teacher name is ${teacher1.name}');
 //   print('${teacher2.subject} teacher name is ${teacher2.name}');
 //   print('${teacher3.subject} teacher name is ${teacher3.name}');
