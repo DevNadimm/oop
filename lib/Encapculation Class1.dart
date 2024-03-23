@@ -9,6 +9,9 @@ class Person {
   //Getter method
   get getFullName{
     return _firstName + ' ' + _lastName;
+    // optional
+    // String fullName = _firstName + ' ' + _lastName;
+    // return fullName;
   }
 
   // Setter method
