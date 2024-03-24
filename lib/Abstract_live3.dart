@@ -4,8 +4,8 @@ abstract class Student {
 
   Student(this.studentName, [this.gameName]);
 
-  void reading();              // reading() method e "{}" eta use kora chara code run korce because of "abstract" keyword !!
-  void joiningClass();         // next e eii super class inherit korar somoi "name()" eii method gulo automatic @override korbe!! but "name(){}" eii niyome method likle @override korbe na!
+  void reading();              // reading() interface/method e "{}" eta use kora chara code run korce because of "abstract" keyword !!
+  void joiningClass();         // next e eii super class inherit korar somoi "name()" eii interface/method gulo automatic @override korbe!! but "name(){}" eii niyome method likle @override korbe na!
 
   void playing() {
     print('$studentName is playing $gameName');
