@@ -1,4 +1,4 @@
-import 'Encapculation Class1.dart';
+import 'Encapculation_live2_Class1.dart';
 
 void main (){
   Person defaultPerson = Person('Rafiqul', 'Islam', 'Male', 20);
