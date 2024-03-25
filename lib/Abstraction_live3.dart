@@ -4,6 +4,7 @@
 class AcRemote {
   int _temp = 0;
 
+  // interface
   void increaseTemp() {
     _awakeTheRemoteSystem();
   }
@@ -12,6 +13,7 @@ class AcRemote {
     _awakeTheRemoteSystem();
   }
 
+  //implementation
   void _awakeTheRemoteSystem() {
     print('awake system');
     _callTheArduino();
