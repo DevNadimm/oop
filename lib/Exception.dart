@@ -26,6 +26,33 @@
 
 // Custom Exception
 
+class AmountException implements Exception {
+  final String message;
+
+  AmountException(this.message);
+
+@override
+  String toString() => message;
+  }
+
+void main() {
+  try {
+    withdraw(800000);
+  } on AmountException catch (e) {
+    print(e);
+  }
+}
+
+void withdraw(int amount) {
+  if (amount < 0) {
+    throw AmountException("Please enter greater than 0 TK");
+  } else if (amount > 200000) {
+    throw AmountException("Please enter less than 200000 TK");
+  } else {
+    print("Your amount is $amount TK");
+  }
+}
+
 
 
 
