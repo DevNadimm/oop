@@ -27,17 +27,20 @@
 // Custom Exception
 
 class AmountException implements Exception {
-  final String message;
-
-  AmountException(this.message);
+  final String errorMessage;
+  AmountException(this.errorMessage);
 
 @override
-  String toString() => message;
+  String toString() => errorMessage;
+// alternative
+//   String toString() {
+//    return errorMessage;
+//   }
   }
 
 void main() {
   try {
-    withdraw(800000);
+    withdraw(8000);
   } on AmountException catch (e) {
     print(e);
   }
