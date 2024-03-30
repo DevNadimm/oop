@@ -38,14 +38,6 @@ class AmountException implements Exception {
 //   }
   }
 
-void main() {
-  try {
-    withdraw(8000);
-  } on AmountException catch (e) {
-    print(e);
-  }
-}
-
 void withdraw(int amount) {
   if (amount < 0) {
     throw AmountException("Please enter greater than 0 TK");
@@ -56,7 +48,10 @@ void withdraw(int amount) {
   }
 }
 
-
-
-
-
+void main() {
+  try {
+    withdraw(8000);
+  } on AmountException catch (e) {
+    print(e);
+  }
+}
